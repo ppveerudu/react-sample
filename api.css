@@ -1,0 +1,20 @@
+/* Api.css */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.list .item {
+  flex: 1 0 100%; /* grow, shrink, basis */
+}
+
+.grid .item {
+  flex: 1 0 calc(33.3333% - 20px); /* grow, shrink, basis */
+}
